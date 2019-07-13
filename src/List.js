@@ -2,10 +2,6 @@ import React from 'react';
 import './List.css';
 import Card from './Card';
 function List(props){
-    const cards = props.cards;
-    const listCard = cards.map((card) =>
-        <Card card={card}></Card>
-    );
     return(
         <section className="List">
             <header className="List-header">
